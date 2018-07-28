@@ -1,0 +1,128 @@
+.header-color{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+.landing-grid{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.avatar-img{
+  height: 270px;
+  padding-top: 5em;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+.banner-text{
+  background-color: black;
+  border-radius: 10px;
+  width: 70%;
+  opacity: 0.85;
+  margin: auto;
+}
+
+.banner-text h1{
+  margin: auto;
+  font-size: 70px;
+  padding-top: 10pt;
+  color: white;
+  font-weight: bold;
+}
+
+.banner-text hr{
+border-top: 3px dotted white;
+width: 50%;
+margin: auto;
+}
+
+.banner-text p{
+color: white;
+font-size: 20px;
+padding: 1em;
+  }
+
+.socailLinks{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.socailLinks i{
+  color: white;
+  font-size: 5em;
+  padding: 15%;
+  padding-bottom: 15pt;
+}
+
+.projects-grid{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction:row;
+  padding: 5%; */
+}
+
+.projects-grid > div {
+  /* width: 100%; */
+  padding: 20pt;
+  margin: auto;
+}
+
+.cardPlace{
+  margin: auto;
+}
+.cardDetails{
+  margin: auto;
+}
+
+.contact-body{
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.contact-grid{
+  background: white;
+  color: black;
+  width: 85%;
+  height: 600px;
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  padding-top: 8pt;
+  font-size: 15pt;
+  width: 85%;
+}
+
+.contact-grid hr{
+  border-top: 4px dotted black;
+  width: 25%;
+  margin: auto;
+}
+.contact-list{
+  margin: auto;
+  padding-left: 12%;
+}
+.contact-list i{
+  font-size: 60px;
+  padding-right: 5rem;
+  padding-top: 5pt;
+}
